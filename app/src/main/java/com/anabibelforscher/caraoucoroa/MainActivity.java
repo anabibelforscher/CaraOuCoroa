@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         mBotaoJogar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),ResultadoActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ResultadoActivity.class);
                 startActivity(intent);
             }
         });
